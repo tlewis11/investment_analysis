@@ -1,1 +1,12 @@
+This software provides Finance_metrics:
+    metrics:
+        "Dividend Yield" 
+    
+BDD Developed with Behave: http://pythonhosted.org/behave/
+
+requirements:
+    Python standard library
+
 This repository provides analysis of my personal stock portfolio.
+
+
