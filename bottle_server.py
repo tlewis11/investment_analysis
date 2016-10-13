@@ -1,9 +1,14 @@
+import json
+
 from bottle import route, run, template
 
 @route('/dividends')
 def index():
     name = 'dividends' 
-    return template('<b>Hello {{name}}</b>!', name=name)
+    endpoints = ['getYield']
 
-run(host='localhost', port=8080)
+    response_json = json.dumps(endpoints)
+    return response_json
+
+run(host='localhost', port=8080, debug=True)
 
