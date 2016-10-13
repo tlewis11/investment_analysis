@@ -7,6 +7,7 @@ BDD Developed with Behave: http://pythonhosted.org/behave/
 requirements:
     Python standard library
     behave
+    bottle
 This repository provides analysis of my personal stock portfolio.
 
 
