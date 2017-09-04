@@ -12,7 +12,7 @@ portfolio = [('wmt', 4),
              ('xom', 30),
              ('ibm', 23),
              ('pfe', 2),
-	         ('vlo', 3)]
+	         ('vlo', 9)]
 
 def get_dividend_amount(symbol):
     '''
